@@ -12,3 +12,19 @@ function yearDays(year)
     }
 }
 console.log(yearDays(1974));
+
+
+//          problem Two
+function multiply(number){
+    let len = number.toString().length;
+    let result = 0;
+    if(number < 0){
+        result = number * (5 ** (len - 1))
+    }else{
+        result = number * (5 ** len);
+    }
+    return result;
+}
+console.log(multiply(5));
+
+//Math.abs(number) عشان ابقا ضامن ان الرقم الا عندي هيبقا موجب بستخدم 
