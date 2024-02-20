@@ -40,3 +40,9 @@ function strCount(str, letter){
 }
 
 console.log(strCount("Hello", "l"));
+
+function numberToString(num) {
+    // return num.toString();
+    return String(num);
+}
+console.log(numberToString(100));
