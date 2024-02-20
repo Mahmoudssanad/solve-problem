@@ -28,3 +28,15 @@ function multiply(number){
 console.log(multiply(5));
 
 //Math.abs(number) عشان ابقا ضامن ان الرقم الا عندي هيبقا موجب بستخدم 
+
+function strCount(str, letter){  
+    let count = 0;
+    for(let i = 0; i < str.length; i++){
+        if(letter === str[i]){
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(strCount("Hello", "l"));
